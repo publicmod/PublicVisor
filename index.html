@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PublicMod HTML Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Agrega CodeMirror para edición de código -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.0/codemirror.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.0/mode/xml/xml.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>PublicMod HTML Viewer</h1>
+        <div class="editor-container">
+            <textarea id="editor"></textarea>
+        </div>
+        <div class="output-container">
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
